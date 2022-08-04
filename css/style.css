@@ -26,7 +26,7 @@ html, body {
     --sky-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
-/*-general----------------------------------------------*/
+/* -general--------------------------------------------- */
 
 a {
     text-decoration: none;
@@ -43,14 +43,24 @@ ul {
     list-style-type: none;
 }
 
-/*-x-general---------------------------------------------*/
+h1 {
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
 
-/*-nav---------------------------------------------------*/
+h3 {
+    font-family: var(--Poppins);
+    font-size: 1.3rem;
+}
+
+/* -x-general------------------------------------------- */
+
+/* -nav------------------------------------------------- */
 .nav {
  background: white;
  padding: 0 2rem;
  height: 0rem; 
- min-height: 10vh;
+ min-height: 11vh;
  overflow: hidden;
  transition: height 1s ease-in-out;
 }
@@ -124,7 +134,34 @@ ul {
     color: #a1c4cf;
 }
 
-/*-x-nav-------------------------------------------------*/
+/* -x-nav----------------------------------------------- */
+
+/* -for main-------------------------------------------- */
+
+main .site-title {
+    background: url('../assets/background.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1, h3 {
+    margin: .3rem;
+}
+
+main .site-title .btn {
+    background-color: #E8F9FD;
+    margin: 1.8rem;
+}
+
+/* -x-for main------------------------------------------ */
 
 /* viewport kurang dari atau sama dengan 750px */
 
